@@ -125,7 +125,7 @@ EMAIL_PASS=your_email_app_password_here
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](Screenshot 2026-03-28 115424.png)
 *The main landing page showcasing featured products with traditional Indian design elements.*
 
 ### Product Catalog
