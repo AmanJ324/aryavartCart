@@ -106,7 +106,7 @@ EMAIL_PASS=your_email_app_password_here
 2. **Start the Backend Server**
    ```bash
    cd backend
-   npm run dev
+   node server.js
    ```
    The server will start on `http://localhost:3000`.
 
