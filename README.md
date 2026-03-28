@@ -122,6 +122,22 @@ EMAIL_PASS=your_email_app_password_here
    - Frontend: [http://localhost:5173](http://localhost:5173)
    - Backend API: [http://localhost:3000](http://localhost:3000)
 
+## Usage
+
+### Frontend Workflow
+1. Click **Register** to create a user, then **Login**.
+2. Browse products on home or use categories/search.
+3. On product page, add item(s) to cart, then go to cart and checkout.
+4. Fill shipping information, confirm order, and complete payment via Stripe.
+5. Go to **Orders** to view your order status.
+
+### Admin Workflow
+1. Create a user in the frontend, then set `role` to `admin` in MongoDB.
+2. Login as admin; you now see **Admin Dashboard**, **Products**, and **Orders** routes.
+3. Add/edit/delete products and update stock.
+4. Manage order statuses (Pending, Processing, Shipped, Delivered, Cancelled).
+
+
 ## Screenshots
 
 ### Home Page
@@ -173,31 +189,6 @@ db.users.updateOne(
 )
 ```
 
-## Contributing
 
-We welcome contributions to AryavartCart! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Guidelines
-
-- Follow the existing code style and structure
-- Write clear, concise commit messages
-- Test your changes thoroughly
-- Update documentation as needed
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you have any questions or need help, please open an issue on GitHub or contact the development team.
-
----
 
 **AryavartCart** - Bringing traditional Indian craftsmanship to the digital marketplace.
